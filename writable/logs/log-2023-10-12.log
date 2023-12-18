@@ -1,0 +1,109 @@
+INFO - 2023-10-12 04:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 05:07:22 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_student.php on line 24.
+ 1 APPPATH\Views\dashboard\add_student.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_student', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('dashboard/add_student', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-12 05:08:00 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_student.php on line 24.
+ 1 APPPATH\Views\dashboard\add_student.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_student', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('dashboard/add_student', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-12 05:08:07 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_student.php on line 24.
+ 1 APPPATH\Views\dashboard\add_student.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_student', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('dashboard/add_student', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-12 05:08:11 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_student.php on line 24.
+ 1 APPPATH\Views\dashboard\add_student.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_student.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_student', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('dashboard/add_student', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+INFO - 2023-10-12 05:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 06:07:14 --> syntax error, unexpected end of file
+in APPPATH\Views\dashboard\students.php on line 27.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/students', [], true)
+ 3 APPPATH\Controllers\UserController.php(155): view('dashboard/students', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->students()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-12 06:09:51 --> syntax error, unexpected end of file
+in APPPATH\Views\dashboard\students.php on line 28.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/students', [], true)
+ 3 APPPATH\Controllers\UserController.php(155): view('dashboard/students', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->students()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-12 06:11:48 --> syntax error, unexpected end of file
+in APPPATH\Views\dashboard\students.php on line 28.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/students', [], true)
+ 3 APPPATH\Controllers\UserController.php(155): view('dashboard/students', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->students()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-12 06:12:11 --> Undefined variable $student
+in APPPATH\Views\dashboard\students.php on line 17.
+ 1 APPPATH\Views\dashboard\students.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\students.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\students.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/students', [], true)
+ 5 APPPATH\Controllers\UserController.php(155): view('dashboard/students', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-12 06:14:27 --> Undefined variable $student
+in APPPATH\Views\dashboard\students.php on line 17.
+ 1 APPPATH\Views\dashboard\students.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\students.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\students.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/students', [], true)
+ 5 APPPATH\Controllers\UserController.php(157): view('dashboard/students', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')

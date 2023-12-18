@@ -1,0 +1,272 @@
+INFO - 2023-10-09 14:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 14:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 14:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 14:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 14:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 14:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 14:47:52 --> syntax error, unexpected double-quote mark, expecting "," or ";"
+in APPPATH\Views\dashboard\category.php on line 84.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/category', [], true)
+ 3 APPPATH\Controllers\UserController.php(15): view('dashboard/category', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->category()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+INFO - 2023-10-09 15:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 15:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 15:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 15:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 15:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 15:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 15:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 15:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 16:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 17:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 17:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 17:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 17:37:46 --> Undefined variable $books
+in APPPATH\Views\dashboard\books.php on line 8.
+ 1 APPPATH\Views\dashboard\books.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\books.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/books', [], true)
+ 5 APPPATH\Controllers\UserController.php(77): view('dashboard/books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 17:40:57 --> Undefined array key "books_name"
+in APPPATH\Views\dashboard\books.php on line 11.
+ 1 APPPATH\Views\dashboard\books.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "books_name"', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\books.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/books', [], true)
+ 5 APPPATH\Controllers\UserController.php(79): view('dashboard/books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 17:41:38 --> Undefined array key "cat_id"
+in APPPATH\Views\dashboard\books.php on line 20.
+ 1 APPPATH\Views\dashboard\books.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cat_id"', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\books.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/books', [], true)
+ 5 APPPATH\Controllers\UserController.php(79): view('dashboard/books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+INFO - 2023-10-09 17:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 17:58:23 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:00:17 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:00:20 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:00:20 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:05:35 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:05:50 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:05:53 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:06:03 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:09:24 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:15:03 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:15:04 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:15:04 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:15:04 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:15:04 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:15:04 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+CRITICAL - 2023-10-09 18:15:05 --> Undefined variable $category
+in APPPATH\Views\dashboard\add_books.php on line 24.
+ 1 APPPATH\Views\dashboard\add_books.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\app\\Views\\dashboard\\add_books.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/add_books', [], true)
+ 5 APPPATH\Controllers\UserController.php(73): view('dashboard/add_books', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->add_books()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xamp\\htdocs\\0.codeigniter\\ci_dashboard\\public\\index.php')
+INFO - 2023-10-09 18:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 18:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 18:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 18:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 18:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 18:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 18:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

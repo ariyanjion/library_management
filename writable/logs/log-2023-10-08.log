@@ -1,0 +1,104 @@
+CRITICAL - 2023-10-08 15:54:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-08 15:54:03 --> Uncaught Error: Class "Locale" not found in H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php:136
+Stack trace:
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php(55): format_number(10.0, 2, NULL, Array)
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(145): number_to_size(10.0, 2)
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(10485760)
+#3 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(241): include('H:\\xamp\\htdocs\\...')
+#4 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'H:\\xamp\\htdocs\\...')
+#6 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-08 15:55:01 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-08 15:55:01 --> Uncaught Error: Class "Locale" not found in H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php:136
+Stack trace:
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php(55): format_number(10.0, 2, NULL, Array)
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(145): number_to_size(10.0, 2)
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(10485760)
+#3 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(241): include('H:\\xamp\\htdocs\\...')
+#4 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'H:\\xamp\\htdocs\\...')
+#6 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-08 15:55:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-08 15:55:02 --> Uncaught Error: Class "Locale" not found in H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php:136
+Stack trace:
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(241): include('H:\\xamp\\htdocs\\...')
+#4 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'H:\\xamp\\htdocs\\...')
+#6 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-08 15:55:09 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-08 15:55:09 --> Uncaught Error: Class "Locale" not found in H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php:136
+Stack trace:
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(241): include('H:\\xamp\\htdocs\\...')
+#4 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'H:\\xamp\\htdocs\\...')
+#6 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 H:\xamp\htdocs\0.codeigniter\ci_dashboard\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 H:\xamp\htdocs\0.codeigniter\ci_dashboard\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

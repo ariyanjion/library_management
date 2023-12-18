@@ -1,0 +1,156 @@
+body {
+  /* background: url("../public/img/img4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh; */
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 20px;
+}
+#loginBody{ 
+   background: url("../public/img/img4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+.login_img {
+  width: 612px !important;
+  height: 566px !important;
+}
+
+/* nav css start */
+
+
+#login-dp {
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#login-dp .help-block {
+  font-size: 12px;
+}
+#login-dp .bottom {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid #ddd;
+  clear: both;
+  padding: 14px;
+}
+#login-dp .social-buttons {
+  margin: 12px 0;
+}
+#login-dp .social-buttons a {
+  width: 49%;
+}
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998;
+}
+.btn-fb:hover {
+  color: #fff;
+  background-color: #496ebc;
+}
+.btn-tw {
+  color: #fff;
+  background-color: #55acee;
+}
+.btn-tw:hover {
+  color: #fff;
+  background-color: #59b5fa;
+}
+@media (max-width: 768px) {
+  #login-dp {
+    background-color: inherit;
+    color: #fff;
+  }
+  #login-dp .bottom {
+    background-color: inherit;
+    border-top: 0 none;
+  }
+}
+
+/* carousal css start */
+
+#carouselContainer {
+  position: relative;
+  
+}
+
+#dimOverlay {
+  position: absolute!important;
+  top: 0!important;
+  left: 0!important;
+  width: 100%!important;
+  height: 100%!important;
+  background-color: #4D3E3E; /* Semi-transparent black overlay */
+  padding: 20px!important;
+}
+
+#carouselExampleSlidesOnly {
+  z-index: 1; /* Ensure the carousel is above the overlay */
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #ffffff;
+  z-index: 2; /* Ensure the content is above the overlay */
+}
+
+/* container css start */
+.main {
+  background: url("../public/img/img7.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Fixed background */
+  height: 100vh;
+  margin: 0;
+}
+.carousel-container {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Adjust the opacity to control dimming effect */
+  padding: 50px 0px;
+  text-align: center;
+  height: 100vh;
+  width: 1700px !important;
+}
+.carousel-heading {
+  margin-top: 250px;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.carousel-description {
+  font-size: 1.2rem;
+  color: #fff;
+  height: 400px;
+}
